@@ -1,0 +1,5 @@
+app:
+    database:
+        dbname:   symfony-config
+        user:     symfony
+        password: symfony

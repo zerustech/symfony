@@ -6,3 +6,6 @@ package*.tar
 packages.json
 phpunit.xml
 /vendor/
+.project
+.DS_Store
+cache

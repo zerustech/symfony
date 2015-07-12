@@ -1,0 +1,7 @@
+foo_extension:
+    param1: value of param1 
+    positive_value: 10
+    big_value: 99999
+    value_inside_a_range: 50
+    gender: male
+    driver: mysql

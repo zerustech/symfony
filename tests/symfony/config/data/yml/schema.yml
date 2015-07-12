@@ -1,0 +1,17 @@
+foo_extension:
+  tag_a: ~ # ~ means NULL 
+  tag_b: simple value of tag_b
+  tag_c:  
+    tag_d: indentation defines tag_d as a nested collection item of tag_c. # indentation creates nested collections
+    tag_e: indentation defines tag_e as a nested colleciton item of tag_c.
+  tag_f:
+    - tag_f1: The '-' character defines array 0 and tag_f1 is its first element. # - creates array and indentation creates nested collections
+      tag_f2: tag_f2 is the 2nd element of array 0.
+      tag_f3: tag_f3 is the 3rd element of array 0.
+    - tag_f4: The '_' character defines array 1 and tag_f4 is its first element.
+      tag_f5: tag_f5 is the 2nd element of array 1.
+      tag_f6: tag_f6 is the 3rd element of array 1.
+  tag_g: [ a, b, c ]  # [] defines new array
+  tag_h: { key1: value1, key2: value2 } # {} defines new hasmap
+  tag_i: value of the 1st tag_i wins
+  tag_i: value of the 2nd tag_i fails

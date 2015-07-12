@@ -1,0 +1,5 @@
+app:
+    hosts:
+        - ip: 192.168.1.2
+          username: admin
+          password: 4xx63TC61

@@ -1,0 +1,5 @@
+app:
+    parameters:
+        param1: value of param1
+        param2: value of param2
+        param3: value of param3

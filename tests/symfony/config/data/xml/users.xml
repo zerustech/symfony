@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<root>
+    <app>
+        <user>
+            <login>root</login>
+            <email>root@localhost</email>
+            <group>admin</group>
+        </user>
+        <user>
+            <login>member</login>
+            <email>member@localhost</email>
+            <group>member</group>
+        </user>
+    </app>
+</root>

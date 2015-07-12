@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+    <app>
+        <connection>
+            <ip>192.168.1.2</ip>
+            <username>admin</username>
+            <password>4xx63TC61</password>
+            <timeout>300 seconds</timeout>
+        </connection>
+    </app>
+</root>

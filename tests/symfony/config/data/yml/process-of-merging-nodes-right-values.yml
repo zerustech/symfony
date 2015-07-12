@@ -1,0 +1,5 @@
+app:
+    database:
+        host: 192.168.1.3
+        dbname: symfony-on-server-2
+

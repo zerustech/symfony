@@ -1,0 +1,5 @@
+acl:
+    staff:
+        login: staff
+        role: admin 
+        email: staff@web.localhost

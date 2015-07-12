@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<root>
+    <imports>
+        <import resource="users.xml" />
+        <import resource="hosts.xml" />
+    </imports>
+    <app>
+        <database>
+            <username>symfony-mysql</username>
+            <password>symfony-mysql</password>
+        </database>
+    </app>
+</root>

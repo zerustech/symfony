@@ -1,0 +1,10 @@
+app:
+    parameters:
+        - name: server_name
+          value: web.local
+        - name: ip
+          value: 192.168.1.2
+        - name: username
+          value: admin
+        - name: password
+          value: 4xx63TC61

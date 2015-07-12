@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<root>
+    <app>
+        <database>
+            <user>symfony-dev</user>
+            <password>symfony-dev</password>
+        </database>
+    </app>
+</root>

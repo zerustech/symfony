@@ -1,0 +1,7 @@
+imports: 
+    - { resource: users.yml }
+    - { resource: hosts.yml }
+app:
+    database:
+        host: db1
+        dbname: symfony-tuotrial

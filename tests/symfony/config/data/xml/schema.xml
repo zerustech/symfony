@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<root xmlns:test="http://test.com">
+
+    <foo_extension>
+
+        <tag-a>Tag becomes key/value pair. tag name becomes key, content becomes value.</tag-a>
+
+        <tag-b attribute-a="Attribute becomes key/value pair. Attribute name becomes key, attribute value becomes value." />
+
+        <tag-c>
+            <tag-d>Nested tag becomes key/value pair.</tag-d>
+        </tag-c>
+
+        <tag-e>tag-e 1: tags with same name get merged</tag-e>
+        <tag-e>tag-e 2: tags with same name get merged</tag-e>
+
+        <tag-f tag-g="tag-g 1: attribute is merged with tag with the same name." >
+            <tag-g>tag-g 2: tag is merged with attribute of the same name.</tag-g>
+        </tag-f>
+
+        <tag-h>
+            <foo>tag-h 1: foo</foo>
+            <bar>tag-h 1: bar</bar>
+        </tag-h>
+
+        <tag-h>
+            <foo>tag-h 2: foo</foo>
+            <bar>tag-h 2: bar</bar>
+        </tag-h>
+
+    </foo_extension>
+
+</root>

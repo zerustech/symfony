@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<root>
+    <app>
+        <host-parameters>
+            <host-ip>192.168.1.2</host-ip>
+            <host-username>admin</host-username>
+            <host-password>4xx63TC61</host-password>
+        </host-parameters>
+    </app>
+</root>

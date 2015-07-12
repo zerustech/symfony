@@ -1,0 +1,8 @@
+app:
+    users:
+        - login: admin
+          email: admin@localhost
+          group: admin
+        - login: staff
+          email: staff@localhost
+          group: staff

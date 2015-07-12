@@ -1,0 +1,10 @@
+app:
+    hosts:
+        - name: web.local
+          ip: 192.168.1.2
+          username: admin
+          password: 4xx63TC61
+        - name: db.local
+          ip: 192.168.1.3
+          username: admin
+          password: 9h0HO13u9
